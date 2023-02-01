@@ -35,15 +35,17 @@
                 <input type="radio" id="radio-2" name="gender" value="Male" <%= user.gender == 'Male' ? 'checked' : '' %>>
                 <label for="radio-2" class="radio-label">Male</label>
             </div>
+            
             <div class="radio inline">
                 <input type="radio" id="radio-3" name="gender" value="Female"  <%= user.gender == 'Female' ? 'checked' : '' %> >
                 <label for="radio-3" class="radio-label">Female</label>
             </div>
+            <label for="gender" class="text-light">Category</label>
             <div class="radio inline">
                 <input type="radio" id="radio-7" name="category" value="Work"  <%= user.category == 'Work' ? 'checked' : '' %> >
                 <label for="radio-7" class="radio-label">Work</label>
             </div>
-            div class="radio inline">
+            <div class="radio inline">
                 <input type="radio" id="radio-6" name="category" value="personal"  <%= user.category == 'Personal' ? 'checked' : '' %> >
                 <label for="radio-6" class="radio-label">Personal</label>
             </div>
