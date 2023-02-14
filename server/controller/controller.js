@@ -7,7 +7,6 @@ exports.create = (req, res) => {
         res.status(400).send({ message: "Content can not be emtpy!" });
         return;
     }
-
     // new user
     const user = new Userdb({
         name: req.body.name,
@@ -17,6 +16,7 @@ exports.create = (req, res) => {
         category: req.body.category,
         status: req.body.status
     })
+
 
     // save user in the database
     user
