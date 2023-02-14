@@ -3,10 +3,11 @@
     <td><%= i + 1 %></td>
     <td><%= users[i].name %></td>
     <td><%= users[i].email %></td>
-    <td><%= users[i].gender %></td>
-    <td><%= users[i].task %></td>
-    <td><%= users[i].category %></td>
-    <td><%= users[i].status %></td>
+    <td><%= users[i].state %></td>
+    <td><%= users[i].battery %></td>
+    <td><%= users[i].weight %></td>
+    <td><%= users[i].model %></td>
+    
     
     <td>
         <a href="/update-user?id=<%= users[i]._id%>" class="btn border-shadow update">
